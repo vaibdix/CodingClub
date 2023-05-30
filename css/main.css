@@ -594,7 +594,8 @@ a {
     margin: auto;
     background: rgba(0, 0, 0, 0.4); }
   .hero-title {
-    margin: 0 0 30px; }
+    margin: 0 0 30px; 
+    font-size: 90px;  }
   .hero-txt {
     font-family: "NeueMontreal-Regular", sans-serif;
     font-size: 25px;
