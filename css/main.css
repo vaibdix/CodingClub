@@ -178,7 +178,9 @@ p {
 
 a {
   text-decoration: none;
-  transition: all 0.3s ease-out; }
+  transition: all 0.3s ease-out; 
+  color: #FDE3A7;
+}
 
 .container {
   padding: 0 15px; }
