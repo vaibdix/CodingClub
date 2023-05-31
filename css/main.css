@@ -799,7 +799,8 @@ a {
             justify-content: space-between;
     margin-bottom: 45px; }
   .education-title {
-    margin: 0; }
+    margin: 0;
+    font-size: 35px;}
   .education-table {
     border-top: 1px solid #FDE3A7; }
     .education-table__row {
@@ -826,7 +827,7 @@ a {
       .education-table__cell:last-child {
         margin-bottom: 0; }
   .education .swiper-buttons {
-    margin-top: 60px;
+    margin-top: 25px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
