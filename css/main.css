@@ -804,13 +804,13 @@ a {
     border-top: 1px solid #FDE3A7; }
     .education-table__row {
       border-bottom: 1px solid #FDE3A7;
-      padding: 40px 0;
+      padding: 20px 0;
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center; }
     .education-table__txt {
       font-family: "NeueMontreal-Regular", sans-serif;
-      font-size: 28px;
+      font-size: 22px;
       line-height: 100%;
       color: #FDE3A7;
       margin: 0; }
