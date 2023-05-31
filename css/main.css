@@ -904,7 +904,7 @@ a {
 
 /* 4.7 Main - Services section. Fifth section */
 .services {
-  padding: 170px 80px 150px; }
+  padding: 90px 80px 90px; }
   .services:after {
     content: '';
     width: 100%;
@@ -1044,7 +1044,7 @@ a {
 .news {
   padding: 170px 80px 150px; }
   .news-title {
-    margin: 0 0 97px; }
+    margin: 0 0 50px; }
   .news-link {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1583,7 +1583,7 @@ a {
     text-transform: capitalize; }
 
 .footer {
-  padding: 50px 90px;
+  padding: 0px 90px;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -1623,7 +1623,7 @@ a {
   .section-scroll {
     right: 40px; }
   .footer {
-    padding: 20px; } }
+    padding-bottom: 20px; } }
 
 @media only screen and (max-width: 1540px) {
   .header {
