@@ -25,7 +25,7 @@
 .svg-image-arrow-top {
   background-position: 0 100%;
   background-size: 2570% auto;
-  width: 40px; }
+  width: 20px; }
 
 .svg-image-arrow-top:before {
   content: "";
@@ -616,8 +616,8 @@ a {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
-      width: 105px;
-      height: 105px;
+      width: 75px;
+      height: 75px;
       border-radius: 50%;
       background: #a95847;
       transition: all 0.3s ease-out; }
