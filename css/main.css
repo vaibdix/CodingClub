@@ -1623,7 +1623,7 @@ a {
   .section-scroll {
     right: 40px; }
   .footer {
-    padding: 40px; } }
+    padding: 20px; } }
 
 @media only screen and (max-width: 1540px) {
   .header {
