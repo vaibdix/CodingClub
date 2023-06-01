@@ -696,7 +696,7 @@ a {
 
 /* 4.4 Main - Experience section. Second section */
 .experience {
-  padding: 120px 80px 100px; }
+  padding: 50px 80px 50px; }
   .experience-img {
     padding-left: 90px;
     padding-top: 75px;
@@ -775,7 +775,7 @@ a {
 
 /* 4.5 Main - Education section. Third section */
 .education {
-  padding: 170px 80px 150px; }
+  padding: 50px 80px 50px; }
   .education:after {
     content: '';
     width: 100%;
