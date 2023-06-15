@@ -958,7 +958,10 @@ a {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: -56px; }
+    margin-bottom: -56px; 
+    margin-right: 10px;
+  }
+    
   .services-item {
     width: 41%;
     margin-bottom: 56px; }
