@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
 @import url(bootstrap-grid.min.css);
 @import url(jquery.pagepiling.min.css);
 @import url(swiper-bundle.min.css);
@@ -138,7 +139,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #0F0F0F;
-  font-family: "NeueMontreal-Regular", sans-serif, "Helvetica", Arial, sans-serif;
+  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: "NeueMontreal-Regular", sans-serif, "Helvetica", Arial, sans-serif; */
   width: 100%;
   height: 100%;
   min-height: 100vh;
@@ -147,7 +149,8 @@ body {
 
 /* 1.4 Typography */
 h1, .h1 {
-  font-family: "NeueMontreal-Regular", sans-serif;
+  /* font-family: "NeueMontreal-Regular", sans-serif; */
+  font-family: 'Apercu Pro', sans-serif;
   font-weight: normal;
   font-size: 140px;
   line-height: 90%;
@@ -155,7 +158,8 @@ h1, .h1 {
   margin: 0; }
 
 h2, .h2 {
-  font-family: "NeueMontreal-Regular", sans-serif;
+  /* font-family: "NeueMontreal-Regular", sans-serif; */
+  font-family: 'Apercu Pro', sans-serif;
   font-weight: normal;
   font-size: 60px;
   line-height: 100%;
@@ -163,14 +167,17 @@ h2, .h2 {
   margin: 0; }
 
 h4, .h4 {
-  font-family: "NeueMontreal-Regular", sans-serif;
+  /* font-family: "NeueMontreal-Regular", sans-serif; */
+  font-family: 'Apercu Pro', sans-serif;
   font-weight: normal;
   font-size: 25px;
   line-height: 100%;
   color: #fbf0d7;}
 
 .blog-subtitle {
-  font-family: "NeueMontreal-Medium", sans-serif;
+  /* font-family: "NeueMontreal-Medium", sans-serif;
+   */
+   font-family: 'Apercu Pro', sans-serif;
 }
 
 p {
@@ -191,7 +198,8 @@ a {
 
 /* 1.5 Btns */
 .btn {
-  font-family: "SFProDisplay-Medium", sans-serif;
+  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: "SFProDisplay-Medium", sans-serif; */
   display: block;
   background: #a95847;
   padding: 18px 42px;
@@ -311,7 +319,8 @@ a {
   top: 40px;
   margin: auto; }
   .header-logo span {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 25px;
     line-height: 30px;
     text-transform: uppercase;
@@ -324,7 +333,8 @@ a {
     font-size: 20px;
     line-height: 90%;
     color: #FDE3A7;
-    font-family: "SFProDisplay-Medium", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "SFProDisplay-Medium", sans-serif; */
     text-decoration: none;
     transition: all 0.3s ease-out;
     display: none; }
@@ -453,7 +463,8 @@ a {
 
 .nav-link {
   display: inline-block;
-  font-family: "NeueMontreal-Medium", sans-serif;
+  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: "NeueMontreal-Medium", sans-serif; */
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.03em;
@@ -599,7 +610,9 @@ a {
     margin: 0 0 30px; 
     font-size: 90px;  }
   .hero-txt {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif;
+     */
+     font-family: 'Apercu Pro', sans-serif;
     font-size: 25px;
     line-height: 130%;
     color: #FDE3A7;
@@ -644,7 +657,8 @@ a {
       display: -ms-flexbox;
       display: flex; }
     .hero-inner__title {
-      font-family: "NeueMontreal-Medium", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Medium", sans-serif; */
       font-size: 100px;
       line-height: 100%;
       text-align: center;
@@ -719,7 +733,8 @@ a {
     .experience-info__title {
       margin: 0 0 25px; }
     .experience-info__txt {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
       color: #FDE3A7;
@@ -742,7 +757,8 @@ a {
               justify-content: space-between;
       margin-bottom: 2px; }
     .experience-skills__title {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-weight: normal;
       font-size: 15px;
       line-height: 18px;
@@ -750,7 +766,8 @@ a {
       color: #FDE3A7;
       margin: 0; }
     .experience-skills__percent {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
@@ -810,13 +827,15 @@ a {
           -ms-flex-align: center;
               align-items: center; }
     .education-table__txt {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 22px;
       line-height: 100%;
       color: #FDE3A7;
       margin: 0; }
     .education-table__descr {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
       color: #FDE3A7;
@@ -925,14 +944,17 @@ a {
             align-items: flex-end;
     font-weight: normal;
     margin: 0;
-    font-family: "NeueMontreal-Medium", sans-serif; }
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
+   }
     .services-title span.mark {
       display: block;
       font-size: 220px;
       line-height: 90%;
       margin-right: 34px; }
     .services-title span.txt {
-      font-family: "NeueMontreal-Medium", sans-serif;
+      /* font-family: "NeueMontreal-Medium", sans-serif; */
+      font-family: 'Apercu Pro', sans-serif;
       margin-bottom: 15px;
       font-size: 15px;
       line-height: 18px;
@@ -967,7 +989,8 @@ a {
     margin-bottom: 56px; }
     .services-item__title {
       font-weight: normal;
-      font-family: "NeueMontreal-Medium", sans-serif;
+      /* font-family: "NeueMontreal-Medium", sans-serif; */
+      font-family: 'Apercu Pro', sans-serif;
       font-size: 15px;
       line-height: 130%;
       letter-spacing: 0.05em;
@@ -975,7 +998,8 @@ a {
       color: #FDE3A7;
       margin: 0 0 27px; }
     .services-item__descr {
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
       color: #FDE3A7; }
@@ -987,13 +1011,15 @@ a {
     margin: 0;
     padding-right: 70px; }
   .reviews-txt {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
     color: #FDE3A7;
     margin: 0 0 50px; }
   .reviews-author {
-    font-family: "NeueMontreal-Medium", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 25px;
     line-height: 130%;
     color: #FDE3A7;
@@ -1076,7 +1102,8 @@ a {
     margin-bottom: 12px; }
     .news-item__info-date, .news-item__info-tag {
       margin: 0;
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%; }
     .news-item__info-date {
@@ -1085,7 +1112,8 @@ a {
     .news-item__info-tag {
       color: #FDE3A7; }
   .news-item__title {
-    font-family: "NeueMontreal-Medium", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 32px;
     line-height: 130%;
     color: #FDE3A7;
@@ -1120,14 +1148,16 @@ a {
     margin: 0 0 45px; }
   .contact-subtitle {
     margin: 0 0 10px;
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
     letter-spacing: 0.075em;
     text-transform: uppercase;
     color: #a95847; }
   .contact-descr {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
     color: #FDE3A7;
@@ -1146,11 +1176,13 @@ a {
       color: #a95847; }
   .contact-info__mail {
     line-height: 100%;
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     margin-bottom: 32px; }
   .contact-info__phone {
     line-height: 90%;
-    font-family: "SFProDisplay-Medium", sans-serif;
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "SFProDisplay-Medium", sans-serif; */
     margin-bottom: 75px; }
   .contact-form .form-group {
     position: relative;
@@ -1160,7 +1192,8 @@ a {
       top: 0;
       bottom: 0;
       margin: auto;
-      font-family: "NeueMontreal-Regular", sans-serif;
+      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 100%;
       letter-spacing: 0.075em;
@@ -1185,7 +1218,9 @@ a {
     line-height: 100%;
     padding: 0;
     color: #FDE3A7;
-    font-family: "NeueMontreal-Regular", sans-serif; }
+    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
+   }
     .contact-form .form-control:focus {
       outline: none; }
   .contact-form textarea.form-control {
@@ -1324,7 +1359,8 @@ a {
 
 .ps-title {
   margin-bottom: 85px;
-  font-family: "NeueMontreal-Medium", sans-serif;
+  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: "NeueMontreal-Medium", sans-serif; */
   text-align: center; }
 
 .ps-txt {
@@ -1426,7 +1462,9 @@ a {
     color: #a95847; }
   .blog-title {
     margin-bottom: 45px;
-    font-family: "NeueMontreal-Medium", sans-serif; }
+    font-family: "NeueMontreal-Medium", sans-serif; 
+    font-family: 'Apercu Pro', sans-serif;
+  }
   .blog-txt {
     font-size: 16px;
     line-height: 162%;
@@ -1499,7 +1537,9 @@ a {
     .blog-tag__txt, .blog-share__txt {
       margin-right: 6px;
       color: #FDE3A7;
-      font-family: "NeueMontreal-Medium", sans-serif; }
+      /* font-family: "NeueMontreal-Medium", sans-serif; */
+      font-family: 'Apercu Pro', sans-serif;
+    }
     .blog-tag__list, .blog-share__list {
       margin: 0;
       padding: 0;
