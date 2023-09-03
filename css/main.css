@@ -609,6 +609,13 @@ a {
   .hero-title {
     margin: 0 0 30px; 
     font-size: 90px;  }
+  
+  @media screen and (max-width: 600px) {
+  .hero-title {
+    margin: 0 0 30px; 
+    font-size: 60px;  }
+  }
+
   .hero-txt {
     /* font-family: "NeueMontreal-Regular", sans-serif;
      */
@@ -876,6 +883,7 @@ a {
       background-image: url(../images/next.svg); }
 
 /* 4.6 Main - Projects section. Fourth section */
+
 .projects-list {
   overflow: inherit; }
   .projects-list .swiper-wrapper {
@@ -920,6 +928,58 @@ a {
          object-position: center;
       width: 100%;
       height: 100%; }
+
+
+
+      /* @media screen and (max-width: 600px) {
+        
+      .projects-list {
+        visibility: hidden;
+        display: none;
+        overflow: inherit; }
+        .projects-list .swiper-wrapper {
+          transition-timing-function: linear !important; }
+        .projects-list .swiper-slide {
+          position: relative;
+          width: auto;
+          margin-right: 180px; }
+        .projects-list__item {
+          padding: 0 93px; }
+          .projects-list__item:hover {
+            cursor: url("../images/hover.svg"), pointer; }
+        .projects-list__txt {
+          font-size: 60px;
+          line-height: 100%;
+          color: #FDE3A7;
+          white-space: nowrap;
+          text-align: center; }
+        .projects-list__hover {
+          position: absolute;
+          width: 500px;
+          opacity: 0;
+          margin: auto;
+          z-index: 1;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%);
+          transition: .2s ease; }
+        .projects-list__img {
+          position: relative;
+          padding-bottom: 120%;
+          display: block;
+          cursor: url("../images/hover.svg"), pointer; }
+          .projects-list__img img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            -o-object-fit: cover;
+               object-fit: cover;
+            -o-object-position: center;
+               object-position: center;
+            width: 100%;
+            height: 100%; }
+          } */
 
 /* 4.7 Main - Services section. Fifth section */
 .services {
