@@ -276,6 +276,11 @@ a {
     transform: scale(1);
     -webkit-transform: scale(1); } }
 
+.space{
+  margin-top: 15px;
+}
+
+
 /* 2. Header */
 .header {
   padding: 20px;
