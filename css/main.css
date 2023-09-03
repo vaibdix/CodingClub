@@ -1,8 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/apercu-pro');
+
 @import url(bootstrap-grid.min.css);
 @import url(jquery.pagepiling.min.css);
 @import url(swiper-bundle.min.css);
 @import url(magnific-popup.css);
+
+@font-face {
+  font-family:"area-normal";
+  src:url("https://use.typekit.net/af/911b4f/0000000000000000774b9fbd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/911b4f/0000000000000000774b9fbd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/911b4f/0000000000000000774b9fbd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+  }
 
 @font-face {
   font-family: "NeueMontreal-Regular";
@@ -139,7 +146,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #0F0F0F;
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: "area-normal", sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
   /* font-family: "NeueMontreal-Regular", sans-serif, "Helvetica", Arial, sans-serif; */
   width: 100%;
   height: 100%;
@@ -150,34 +158,38 @@ body {
 /* 1.4 Typography */
 h1, .h1 {
   /* font-family: "NeueMontreal-Regular", sans-serif; */
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: "area-normal", sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
   font-weight: normal;
   font-size: 140px;
   line-height: 90%;
-  color: #FDE3A7;
+  color: #f9e7ea;
   margin: 0; }
 
 h2, .h2 {
   /* font-family: "NeueMontreal-Regular", sans-serif; */
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: "area-normal", sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
   font-weight: normal;
   font-size: 60px;
   line-height: 100%;
-  color: #FDE3A7;
+  color: #f9e7ea;
   margin: 0; }
 
 h4, .h4 {
   /* font-family: "NeueMontreal-Regular", sans-serif; */
-  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
+  font-family: "area-normal", sans-serif;
   font-weight: normal;
   font-size: 25px;
   line-height: 100%;
-  color: #FDE3A7;}
+  color: #f9e7ea;}
 
 .blog-subtitle {
   /* font-family: "NeueMontreal-Medium", sans-serif;
    */
-   font-family: 'Apercu Pro', sans-serif;
+   font-family: "area-normal", sans-serif;
+   /* font-family: 'Apercu Pro', sans-serif; */
 }
 
 p {
@@ -186,7 +198,7 @@ p {
 a {
   text-decoration: none;
   transition: all 0.3s ease-out; 
-  color: #FDE3A7;
+  color: #f9e7ea;
 }
 
 .container {
@@ -198,7 +210,8 @@ a {
 
 /* 1.5 Btns */
 .btn {
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: "area-normal", sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
   /* font-family: "SFProDisplay-Medium", sans-serif; */
   display: block;
   background: #a95847;
@@ -208,20 +221,20 @@ a {
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FDE3A7;
+  color: #f9e7ea;
   transition: all 0.3s ease-out;
   text-decoration: none; }
   .btn:hover, .btn:focus {
     color: #a95847;
-    background: #FDE3A7; }
+    background: #f9e7ea; }
   .btn:focus {
     outline: none; }
   .btn-border {
     background: #0F0F0F;
-    border: 1px solid #FDE3A7; }
+    border: 1px solid #f9e7ea; }
     .btn-border:hover, .btn-border:focus {
       color: #0F0F0F;
-      background: #FDE3A7; }
+      background: #f9e7ea; }
 
 /* 1.6 Loader */
 .loader {
@@ -249,7 +262,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #FDE3A7;
+  background-color: #f9e7ea;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -324,12 +337,13 @@ a {
   top: 40px;
   margin: auto; }
   .header-logo span {
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 25px;
     line-height: 30px;
     text-transform: uppercase;
-    color: #FDE3A7; }
+    color: #f9e7ea; }
 
 /* 2.2 Header - Contacts */
 .header-contacts {
@@ -337,8 +351,9 @@ a {
   .header-contacts__link {
     font-size: 20px;
     line-height: 90%;
-    color: #FDE3A7;
-    font-family: 'Apercu Pro', sans-serif;
+    color: #f9e7ea;
+    /* font-family: 'Apercu Pro', sans-serif; */
+    font-family: "area-normal", sans-serif;
     /* font-family: "SFProDisplay-Medium", sans-serif; */
     text-decoration: none;
     transition: all 0.3s ease-out;
@@ -396,7 +411,7 @@ a {
   .header-lang__link {
     font-size: 13px;
     line-height: 150%;
-    color: #FDE3A7; }
+    color: #f9e7ea; }
     .header-lang__link:hover, .header-lang__link:focus, .header-lang__link:active {
       color: #a95847; }
 
@@ -428,7 +443,7 @@ a {
             flex-direction: column; }
   .header-burger-line {
     display: block;
-    background: #FDE3A7;
+    background: #f9e7ea;
     width: 30px;
     height: 3px;
     transition: all 0.3s ease-out;
@@ -468,13 +483,14 @@ a {
 
 .nav-link {
   display: inline-block;
-  font-family: 'Apercu Pro', sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif;
+   */font-family: "area-normal", sans-serif;
   /* font-family: "NeueMontreal-Medium", sans-serif; */
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FDE3A7;
+  color: #f9e7ea;
   text-decoration: none;
   position: relative;
   transition: all 0.3s ease-out; }
@@ -531,7 +547,7 @@ a {
   width: 3px; }
   .section-scroll-item {
     width: 3px;
-    background: #FDE3A7;
+    background: #f9e7ea;
     position: relative; }
     .section-scroll-item:after {
       content: "";
@@ -557,7 +573,7 @@ a {
   .section::-webkit-scrollbar {
     width: 3px; }
   .section::-webkit-scrollbar-track {
-    background: #FDE3A7; }
+    background: #f9e7ea; }
   .section::-webkit-scrollbar-thumb {
     background: #a95847; }
   .section::-webkit-scrollbar-thumb:hover {
@@ -622,12 +638,13 @@ a {
   }
 
   .hero-txt {
+    font-family: "area-normal", sans-serif;
     /* font-family: "NeueMontreal-Regular", sans-serif;
      */
-     font-family: 'Apercu Pro', sans-serif;
+     /* font-family: 'Apercu Pro', sans-serif; */
     font-size: 25px;
     line-height: 130%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin: 0; }
   .hero-play {
     margin-bottom: 40px; }
@@ -647,7 +664,7 @@ a {
       background: #a95847;
       transition: all 0.3s ease-out; }
       .hero-play-btn i {
-        color: #FDE3A7;
+        color: #f9e7ea;
         transition: all 0.3s ease-out;
         transition-delay: .15s; }
       .hero-play-btn:hover {
@@ -669,12 +686,13 @@ a {
       display: -ms-flexbox;
       display: flex; }
     .hero-inner__title {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Medium", sans-serif; */
       font-size: 100px;
       line-height: 100%;
       text-align: center;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin-bottom: 70px; }
       .hero-inner__title:last-child {
         margin-bottom: 0; }
@@ -682,7 +700,7 @@ a {
       text-align: center;
       font-size: 15px;
       line-height: 150%;
-      color: #FDE3A7;
+      color: #f9e7ea;
       padding: 0 60px; }
   .hero-project .hero-inner-cnt {
     -webkit-align-items: center;
@@ -745,11 +763,12 @@ a {
     .experience-info__title {
       margin: 0 0 25px; }
     .experience-info__txt {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
-      color: #FDE3A7;
+      color: #f9e7ea;
       width: 63%;
       margin-bottom: 110px; }
   .experience-skills {
@@ -769,25 +788,27 @@ a {
               justify-content: space-between;
       margin-bottom: 2px; }
     .experience-skills__title {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-weight: normal;
       font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin: 0; }
     .experience-skills__percent {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin: 0; }
     .experience-skills progress {
       width: 100%;
-      background-color: #FDE3A7;
+      background-color: #f9e7ea;
       height: 4px; }
       .experience-skills progress[value] {
         -webkit-appearance: none;
@@ -797,7 +818,7 @@ a {
         background-color: #a95847; }
         .experience-skills progress[value]::-webkit-progress-bar {
           border: 0;
-          background-color: #FDE3A7; }
+          background-color: #f9e7ea; }
         .experience-skills progress[value]::-webkit-progress-value {
           border: 0;
           background-color: #a95847; }
@@ -831,26 +852,28 @@ a {
     margin: 0;
     font-size: 35px;}
   .education-table {
-    border-top: 1px solid #FDE3A7; }
+    border-top: 1px solid #f9e7ea; }
     .education-table__row {
-      border-bottom: 1px solid #FDE3A7;
+      border-bottom: 1px solid #f9e7ea;
       padding: 20px 0;
       -webkit-align-items: center;
           -ms-flex-align: center;
               align-items: center; }
     .education-table__txt {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 22px;
       line-height: 100%;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin: 0; }
     .education-table__descr {
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin: 0;
       padding-right: 3px; }
     .education-table__cell {
@@ -904,7 +927,7 @@ a {
   .projects-list__txt {
     font-size: 60px;
     line-height: 100%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     white-space: nowrap;
     text-align: center; }
   .projects-list__hover {
@@ -955,7 +978,7 @@ a {
         .projects-list__txt {
           font-size: 60px;
           line-height: 100%;
-          color: #FDE3A7;
+          color: #f9e7ea;
           white-space: nowrap;
           text-align: center; }
         .projects-list__hover {
@@ -1009,7 +1032,8 @@ a {
             align-items: flex-end;
     font-weight: normal;
     margin: 0;
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Medium", sans-serif; */
    }
     .services-title span.mark {
@@ -1018,19 +1042,21 @@ a {
       line-height: 90%;
       margin-right: 34px; }
     .services-title span.txt {
+      font-family: "area-normal", sans-serif;
       /* font-family: "NeueMontreal-Medium", sans-serif; */
-      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       margin-bottom: 15px;
       font-size: 15px;
       line-height: 18px;
       text-transform: uppercase;
-      color: #FDE3A7; }
+      color: #f9e7ea; }
   .services-subtitle {
     font-weight: normal;
-    font-family: "NeueMontreal-Medium", sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 32px;
     line-height: 38px;
-    color: #FDE3A7;
+    color: #f9e7ea;
     padding-right: 50px;
     margin: 0 0 60px; }
     .services-subtitle span {
@@ -1055,19 +1081,21 @@ a {
     .services-item__title {
       font-weight: normal;
       /* font-family: "NeueMontreal-Medium", sans-serif; */
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       font-size: 15px;
       line-height: 130%;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin: 0 0 27px; }
     .services-item__descr {
-      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif;
+       */font-family: "area-normal", sans-serif;
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%;
-      color: #FDE3A7; }
+      color: #f9e7ea; }
 
 /* 4.8 Main - Reviews section. Sixth section */
 .reviews {
@@ -1076,21 +1104,24 @@ a {
     margin: 0;
     padding-right: 70px; }
   .reviews-txt {
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin: 0 0 50px; }
   .reviews-author {
-    font-family: 'Apercu Pro', sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
+    font-family: "area-normal", sans-serif;
     /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 25px;
     line-height: 130%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin: 0 0 10px; }
   .reviews-post {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
     text-transform: uppercase;
@@ -1167,7 +1198,8 @@ a {
     margin-bottom: 12px; }
     .news-item__info-date, .news-item__info-tag {
       margin: 0;
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 130%; }
@@ -1175,13 +1207,14 @@ a {
       margin-right: 5px;
       color: #a95847; }
     .news-item__info-tag {
-      color: #FDE3A7; }
+      color: #f9e7ea; }
   .news-item__title {
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 32px;
     line-height: 130%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     padding-right: 20px; }
 
 /* 4.10 Main - Contact section. Eight section*/
@@ -1213,7 +1246,8 @@ a {
     margin: 0 0 45px; }
   .contact-subtitle {
     margin: 0 0 10px;
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
@@ -1221,11 +1255,12 @@ a {
     text-transform: uppercase;
     color: #a95847; }
   .contact-descr {
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 15px;
     line-height: 130%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     width: 80%; }
     .contact-logos__item {
       margin-bottom: 50px; }
@@ -1233,7 +1268,7 @@ a {
         max-width: 100%; }
   .contact-info__mail, .contact-info__phone {
     display: block;
-    color: #FDE3A7;
+    color: #f9e7ea;
     transition: all 0.3s ease-out;
     text-decoration: none;
     font-size: 28px; }
@@ -1241,12 +1276,14 @@ a {
       color: #a95847; }
   .contact-info__mail {
     line-height: 100%;
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
     margin-bottom: 32px; }
   .contact-info__phone {
     line-height: 90%;
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "SFProDisplay-Medium", sans-serif; */
     margin-bottom: 75px; }
   .contact-form .form-group {
@@ -1257,13 +1294,14 @@ a {
       top: 0;
       bottom: 0;
       margin: auto;
-      font-family: 'Apercu Pro', sans-serif;
+      font-family: "area-normal", sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
       /* font-family: "NeueMontreal-Regular", sans-serif; */
       font-size: 15px;
       line-height: 100%;
       letter-spacing: 0.075em;
       text-transform: uppercase;
-      color: #FDE3A7;
+      color: #f9e7ea;
       transition: font-size 150ms ease-out, -webkit-transform 150ms ease-out;
       transition: transform 150ms ease-out, font-size 150ms ease-out;
       transition: transform 150ms ease-out, font-size 150ms ease-out, -webkit-transform 150ms ease-out; }
@@ -1275,15 +1313,16 @@ a {
     height: 35px;
     border: 0;
     background: transparent;
-    border-bottom: 1px solid #FDE3A7;
+    border-bottom: 1px solid #f9e7ea;
     width: 100%;
     border-radius: 0;
     -webkit-appearance: inherit;
     font-size: 15px;
     line-height: 100%;
     padding: 0;
-    color: #FDE3A7;
-    font-family: 'Apercu Pro', sans-serif;
+    color: #f9e7ea;
+    font-family: "area-normal", sans-serif;
+    /* font-family: 'Apercu Pro', sans-serif; */
     /* font-family: "NeueMontreal-Regular", sans-serif; */
    }
     .contact-form .form-control:focus {
@@ -1326,7 +1365,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  color: #FDE3A7;
+  color: #f9e7ea;
   padding: 30px; }
   .modal-header .close {
     position: absolute;
@@ -1392,7 +1431,7 @@ a {
 /* 8.1 Project - Project info */
 .project-info {
   padding: 85px 0;
-  border-bottom: 1px solid #FDE3A7; }
+  border-bottom: 1px solid #f9e7ea; }
 
 .pi-items {
   display: -webkit-flex;
@@ -1408,13 +1447,13 @@ a {
 .pi-item__title {
   font-size: 16px;
   line-height: 150%;
-  color: #FDE3A7;
+  color: #f9e7ea;
   margin: 0 0 6px; }
 
 .pi-item__txt {
   font-size: 16px;
   line-height: 150%;
-  color: #FDE3A7; }
+  color: #f9e7ea; }
 
 /* 8.2 Project - Project section */
 .project-section {
@@ -1424,7 +1463,8 @@ a {
 
 .ps-title {
   margin-bottom: 85px;
-  font-family: 'Apercu Pro', sans-serif;
+  font-family: "area-normal", sans-serif;
+  /* font-family: 'Apercu Pro', sans-serif; */
   /* font-family: "NeueMontreal-Medium", sans-serif; */
   text-align: center; }
 
@@ -1432,7 +1472,7 @@ a {
   text-align: center;
   font-size: 15px;
   line-height: 150%;
-  color: #FDE3A7;
+  color: #f9e7ea;
   padding: 0 60px;
   margin-bottom: 150px; }
   .ps-txt a {
@@ -1511,14 +1551,14 @@ a {
   .ps-heart__link svg path {
     transition: all 0.3s ease-out; }
   .ps-heart__link:hover {
-    background: #FDE3A7; }
+    background: #f9e7ea; }
     .ps-heart__link:hover svg path {
       fill: #a95847; }
 
 /* 9. Blog */
 .blog {
   padding: 185px 0 140px;
-  border-bottom: 1px solid #FDE3A7; }
+  border-bottom: 1px solid #f9e7ea; }
   .blog-date {
     margin-bottom: 45px;
     font-size: 15px;
@@ -1527,13 +1567,14 @@ a {
     color: #a95847; }
   .blog-title {
     margin-bottom: 45px;
-    font-family: "NeueMontreal-Medium", sans-serif; 
-    font-family: 'Apercu Pro', sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif;  */
+    /* font-family: 'Apercu Pro', sans-serif; */
   }
   .blog-txt {
     font-size: 16px;
     line-height: 162%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin-bottom: 25px; }
     .blog-txt:last-child {
       margin-bottom: 0; }
@@ -1546,7 +1587,7 @@ a {
     .blog-img img {
       width: 100%; }
   .blog-figure {
-    border: 1px solid #FDE3A7;
+    border: 1px solid #f9e7ea;
     margin: 0 0 60px;
     padding: 40px 72px 20px 128px;
     position: relative; }
@@ -1565,19 +1606,19 @@ a {
     .blog-blockquote__txt {
       font-size: 20px;
       line-height: 175%;
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin-bottom: 40px; }
   .blog-figcaption {
     font-size: 16px;
     line-height: 26px;
     color: #a95847; }
     .blog-figcaption cite {
-      color: #FDE3A7;
+      color: #f9e7ea;
       font-style: normal; }
   .blog-tag {
     margin-bottom: 35px; }
     .blog-tag__item {
-      color: #FDE3A7;
+      color: #f9e7ea;
       margin-right: 6px; }
       .blog-tag__item:after {
         content: ','; }
@@ -1586,7 +1627,7 @@ a {
         .blog-tag__item:last-child:after {
           content: none; }
     .blog-tag__link {
-      color: #FDE3A7;
+      color: #f9e7ea;
       transition: all 0.3s ease-out; }
       .blog-tag__link:hover {
         color: #a95847; }
@@ -1601,9 +1642,10 @@ a {
     line-height: 26px; }
     .blog-tag__txt, .blog-share__txt {
       margin-right: 6px;
-      color: #FDE3A7;
+      color: #f9e7ea;
+      font-family: "area-normal", sans-serif;
       /* font-family: "NeueMontreal-Medium", sans-serif; */
-      font-family: 'Apercu Pro', sans-serif;
+      /* font-family: 'Apercu Pro', sans-serif; */
     }
     .blog-tag__list, .blog-share__list {
       margin: 0;
@@ -1637,10 +1679,11 @@ a {
   .comment-title {
     margin-bottom: 85px; }
   .comment-form__title {
-    font-family: "NeueMontreal-Medium", sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 28px;
     line-height: 34px;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin-bottom: 75px; }
   .comment-cnt {
     margin-bottom: 75px; }
@@ -1668,7 +1711,7 @@ a {
     font-size: 13px;
     line-height: 19px;
     text-transform: uppercase;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin-bottom: 11px; }
   .comment-item__author {
     font-size: 16px;
@@ -1678,14 +1721,15 @@ a {
   .comment-item__txt {
     font-size: 15px;
     line-height: 173%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     margin-bottom: 20px; }
   .comment-item .comment-items {
     padding-left: 115px; }
   .comment-item__btn {
     padding: 5px 25px;
     display: inline-block;
-    font-family: "NeueMontreal-Medium", sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Medium", sans-serif; */
     font-size: 12px;
     line-height: 14px;
     text-transform: capitalize; }
@@ -1700,10 +1744,11 @@ a {
   margin: auto;
   z-index: 100; }
   .footer-copyright {
-    font-family: "NeueMontreal-Regular", sans-serif;
+    font-family: "area-normal", sans-serif;
+    /* font-family: "NeueMontreal-Regular", sans-serif; */
     font-size: 16px;
     line-height: 140%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     text-decoration: none;
     transition: all 0.3s ease-out;
     text-align: right;
@@ -1771,7 +1816,7 @@ a {
     display: block;
     font-size: 14px;
     line-height: 150%;
-    color: #FDE3A7;
+    color: #f9e7ea;
     text-align: left;
     margin: 0; }
   .header-contacts .social {
