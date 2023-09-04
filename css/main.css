@@ -2105,3 +2105,33 @@ a {
     padding-left: 35px; } }
 
 /*# sourceMappingURL=maps/main.css.map */
+
+
+
+
+.cursor {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  --size: 40px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  border: 1px solid rgba(222, 200, 200, 0.722);
+  margin: calc(var(--size) * -0.5) 0 0 calc(var(--size) * -0.5);
+  transition: transform .85s cubic-bezier(0, 0.02, 0, 1);
+  display: none;
+  pointer-events: none;
+  
+  @media (pointer: fine) {
+    display: block;
+  }
+}
+
+.cursor2 {
+  --size: 2px;
+  transition-duration: .7s;
+}
+
+
